@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.box{
+	max-width: 900px;
+	width: 100%;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	margin: auto;
+}
+
+.item {
+	width: calc(100% / 3 - 20px);
+	height: 260px;
+	
+	margin: 10px;
+
+	background-color: #9dad;
+
+	overflow: hidden;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.big {
+	width: calc(100% / 2 - 20px)
+}
+
+.item>img {
+	width:100%;
+	object-fit: cover;
+	transition: 0.4s;
+}
+
+@media (hover: hover) {
+	.item:hover img {
+		transform: scale(1.2);
+	}
+}

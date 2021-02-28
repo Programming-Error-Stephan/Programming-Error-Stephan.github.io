@@ -1,0 +1,28 @@
+.history{
+	background-color: #c7ffd8;
+	height: 700px;
+	width: 250px;
+	padding: 75px 20px;
+	
+	
+
+}
+
+
+.his {
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+img{
+	height: auto;
+	width: 100%;
+	margin: 30px;
+	display: block;
+	margin-left: 0;
+	
+}
+
